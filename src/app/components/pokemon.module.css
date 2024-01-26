@@ -1,0 +1,14 @@
+.contenedor{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.a{
+    text-align: left;
+}
