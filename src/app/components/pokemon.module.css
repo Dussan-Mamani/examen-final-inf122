@@ -3,12 +3,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5%;
 
 }
 .contenedor img{
     border-radius: 50%;
     object-fit: cover;
 }
+
+.contenedor h1{
+    margin: 5%;
+    color: blue;
+}
 .a{
-    text-align: left;
+    text-align: right;
+}
+.contenedor h2{
+    color: rgb(7, 7, 7);
 }

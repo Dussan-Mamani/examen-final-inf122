@@ -19,8 +19,9 @@ function Pokemon (){
     },[]);
     return(
         <div className={style.contenedor}>
-            <h1 className="a">My Pokemon</h1>
+            <h2>My Pokemon</h2>
             <h1>{estado}</h1>
+            <h1 className={style.a}>#25</h1>
             <Image src={pokemon} height={300} width={300}/>
             <h1>{habilidad}</h1>
         </div>
