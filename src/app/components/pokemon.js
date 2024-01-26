@@ -21,7 +21,7 @@ function Pokemon (){
         <div className={style.contenedor}>
             <h1 className="a">My Pokemon</h1>
             <h1>{estado}</h1>
-            <Image src={pokemon} height={250} width={250}/>
+            <Image src={pokemon} height={300} width={300}/>
             <h1>{habilidad}</h1>
         </div>
     )
